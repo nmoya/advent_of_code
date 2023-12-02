@@ -58,4 +58,4 @@ def test_samples():
 
 if __name__ == "__main__":
     test_samples()
-    trebuchet("src/2023_trebuchet.txt")
+    trebuchet("src/2023_1_trebuchet.txt")

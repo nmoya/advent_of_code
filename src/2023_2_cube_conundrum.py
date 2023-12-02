@@ -114,4 +114,4 @@ def test_samples():
 
 if __name__ == "__main__":
     test_samples()
-    cube_conundrum("src/2023_cube_conundrum.txt")
+    cube_conundrum("src/2023_2_cube_conundrum.txt")
