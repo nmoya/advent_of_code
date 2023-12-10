@@ -12,26 +12,29 @@ def read_by_line(filename):
 def create_template(name):
     with open(f'./src/{name}.py', 'w') as f:
         f.write(
-            f'''
-import utils
+            f'''import utils
 
 
 def solution(filename):
-    pass
+    lines = utils.read_by_line(filename)
+    for line in lines:
+        pass
+
 
 def test_samples():
+    lines = utils.read_by_line("src/{name}_sample.txt")
     pass
 
 
 if __name__ == "__main__":
     test_samples()
-    solution("src/{name}-sample.txt")
+    solution("src/{name}_sample.txt")
 '''
         )
 
     with open(f'./src/{name}.txt', 'w') as f:
         f.write("")
-    with open(f'./src/{name}-sample.txt', 'w') as f:
+    with open(f'./src/{name}_sample.txt', 'w') as f:
         f.write("")
 
 
