@@ -39,4 +39,4 @@ if __name__ == "__main__":
 
 
 if __name__ == "__main__":
-    create_template('2023_07_camel_cards')
+    create_template('2023_08_haunted_wasteland')
